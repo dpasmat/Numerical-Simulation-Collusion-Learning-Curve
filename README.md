@@ -23,3 +23,12 @@ Matlab (code was last run with Version R2020a)
 # Memory and Runtime Requirements
 
 The code was last run on a dual processor, 4-core Intel Xeon server with 64Gb of RAM at 3.0 GHz, running on Red Hat Linux 5.3. Computation took 4.25 hours.
+
+# Other Notes
+
+The first order conditions (FOCs) in `Solve_model.m` can be changed to accomodate different assumptions on the demand or supply side of the economic model.
+- On the supply side, the FOCs can be updated to reflect a multiproduct (rather than single product) punishment strategy. The equations are represented in Web Appendix B of the paper. 
+- On the demand side, the FOCs can be updated to reflect different functional forms. To guarantee the existence of an equilibrium, a sufficient condition is log-concave inverse demand, e.g. with the exponential or log-linear form. Further background is outlined in Web Appendix C of the paper. 
+
+
+
