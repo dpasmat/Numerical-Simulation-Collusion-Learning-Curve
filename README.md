@@ -1,5 +1,4 @@
 # Numerical-Simulation-Collusion-Learning-Curve
-Numerical simulation model used in the paper "Collusion along the learning curve: Theory and evidence from the semiconductor industry"
 
 This README describes how to run the numerical simulation model in the paper “Collusion along the learning curve: Theory and evidence from the semiconductor industry.” The code can be run to produce the data underlying Figure 8 from the paper.
 
@@ -13,7 +12,7 @@ The program `Solve_model.m` specifies and solves the linear demand version of th
 
 - To solve the model, the script specifies the first order conditions for each firm, product, and time period. It then uses the function `Solve` to find the vector of equilibrium outputs. Lastly, for each iteration of the outer loop `dt`, it computes the difference in profitability between staying on the equilibrium path and deviating, separately for each product. These values are stored as elements in each row of the matrix `comp`.
 
-The program `profit_function.m` calculates the market prices for each product and time period; and the firm’s profits for each time period. It must be saved in the same directory as `Solve_model.m`, as in this repository, because it is invoked in line 128 of `Solve_model.m`.
+The program `profit_function.m` calculates the market prices for each product and time period; and the firm’s profits for each time period. It must be saved in the same directory as `Solve_model.m`, as in this repository.
 
 # Software Requirements
 
