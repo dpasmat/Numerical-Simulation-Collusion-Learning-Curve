@@ -1,6 +1,6 @@
 # Numerical-Simulation-Collusion-Learning-Curve
 
-Learning-by-doing is the process whereby a firm's *current* output reduces its *future* cost. Learning-by-doing is an important feature of the production process in many computer and electronics products. Moreover, in recent years, numerous manufacturers of these products have been subject to fines for explicitly colluding to raise prices.  
+Learning-by-doing is the process whereby a firm's current output reduces its future cost. Learning-by-doing is an important feature of the production process in many computer and electronics products. Moreover, in recent years, numerous manufacturers of these products have been subject to fines for explicitly colluding to raise prices.  
 
 This README describes how to run the numerical simulation model in the paper “Collusion along the learning curve: Theory and evidence from the semiconductor industry.” The model calculates the minimum discount factor necessary to sustain collusion in a duopoly model, as a function of firms' rate of learning-by-doing. 
 
